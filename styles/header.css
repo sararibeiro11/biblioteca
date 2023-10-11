@@ -87,4 +87,11 @@
             .container__imagem-transparente{
                 display: none;
             }
+            .container__botao:checked~.lista-menu{
+                display: block;
+                width: auto;
+            }
+            .container__botao{
+                display: none;
+            }
         }
